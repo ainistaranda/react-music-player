@@ -1,0 +1,31 @@
+.component {
+  background-color: white;
+  width: 25%;
+  max-width: 600px;
+  margin: 1em auto;
+  padding-bottom: 2em;
+  border: 0.1px solid black;
+  border-radius: 10px;
+}
+
+.music-cover {
+  border-radius: 10%;
+}
+
+.play-btn {
+  background: none;
+  border: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.subtitle {
+  margin-top: -1em;
+  color: #4f4f4f;
+}
+
+@media (max-width: 900px) {
+  .component {
+    width: 50%;
+  }
+}

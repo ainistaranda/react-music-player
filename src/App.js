@@ -1,11 +1,10 @@
 import './App.css';
+import Player from './components/Player.js';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-
-      </header>
+      <Player />
     </div>
   );
 }
