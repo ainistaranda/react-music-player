@@ -1,3 +1,7 @@
+.App {
+  text-align: center;
+}
+
 .component {
   background-color: white;
   width: 25%;
@@ -10,6 +14,8 @@
 
 .music-cover {
   border-radius: 10%;
+  width: 200px;
+  height: 200px;
 }
 
 .play-btn {
@@ -22,6 +28,20 @@
 .subtitle {
   margin-top: -1em;
   color: #4f4f4f;
+}
+
+.time {
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  color: #828282;
+  font-size: smaller;
+}
+
+.timeline {
+  width: 80%;
+  background-color: #27ae60;
 }
 
 @media (max-width: 900px) {
